@@ -1,0 +1,36 @@
+html,body{
+  background-color: black;
+}
+
+
+.background-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 0;
+  grid-row-columns: 0;
+}
+
+.background-content img {
+  display: block; width: 100%;
+  
+}
+
+
+.foreground-content {
+  position:absolute;
+  top: 10%;
+  z-index:2;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width:100%;
+}
+
+.foreground-content .foreground-text{
+  width: 75%;
+  padding: 5%;
+  color: black;
+  background-color: white; 
+  opacity: 95%;
+  text-align: center;
+}
